@@ -19,3 +19,29 @@ html{
 	font-weight: normal;
 	font-style: normal;
 }
+ul {
+    list-style-type: none;
+}
+.main-container{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+.big-wrap{
+    position: relative;
+    background-image: url("../../assets/images/start-screen-gradient-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    height: 908px;
+    width: 100%;
+}
+header{
+    max-width:1200px;
+    height: 60px;
+    margin: 0 auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:nowrap;
+}
