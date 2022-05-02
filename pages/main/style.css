@@ -167,3 +167,36 @@ a {
     margin-top: 60px;
 
 }
+.about-shelter-container{
+    width: 66%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.about-shelter-right-wrapp h3{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 128%;
+    letter-spacing: 0.06em;
+    color:#545454;
+    margin-bottom: 23px;
+    margin-top: 20px;
+    max-width: 370px;
+    font-family: 'Georgia';
+    font-style: normal;
+}
+.about-shelter-right-wrapp p{
+    max-width: 430px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: start;
+    font-family: 'Arial';
+    font-style: normal;
+    color: #4C4C4C;
+}
+#about-second-text{
+    margin-top: 25px;
+}
