@@ -399,3 +399,94 @@ margin: 0 auto;
     font-family: 'Georgia';
     font-style: normal;
 }
+.footer{
+    background-image: url("../../assets/images/footer-gradient-background.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    
+}
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+#footerPuppyIMG{
+ 
+    margin-top: 40px;
+}
+.footer-column{
+    width: 280px;
+}
+#mapcontent{
+    width: 300px;
+}
+#marker-width{
+    margin-left: 25px;
+    font-family: 'Georgia';
+    font-style: normal;
+}
+#thirdFooterCont{
+    padding-top: 15px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    font-family: 'Georgia';
+    font-style: normal;
+    
+}
+
+#thirdFooterCont a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
+    font-family: 'Georgia';
+    font-style: normal;
+}
+#marker-park {
+    margin-left: 26px;
+}
+#email,
+#tel{
+    margin-left: 20px;
+    font-family: 'Georgia';
+    font-style: normal; 
+}
+.footer-content{
+    width: 280px;;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+.footer-column h3, span{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-family: 'Georgia';
+    font-style: normal;
+
+}
+
+#footer-content{
+    margin-bottom: 20px;
+}
+.footer-content a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    color: #F1CDB3;
+    letter-spacing: 0.06em;
+  
+    
+}
+.footer-wrapp{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-content: space-around;
+    align-items: center;
+}
