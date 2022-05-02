@@ -200,3 +200,51 @@ a {
 #about-second-text{
     margin-top: 25px;
 }
+.our-Friends-block{
+    background: #F6F6F6;
+    width: 100%;
+    position: relative;
+}
+.our-friends-heading{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0 60px 0;
+    font-family: 'Georgia';
+    font-style: normal;
+    color: #545454;
+}
+.slider{
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.card-wrap {
+    display: flex;
+    width: 200%;
+    justify-content: space-around;
+    transition: 1s;
+}
+.card {
+    width: 270px;
+    height: 435px;
+    background: #F6F6F6;
+}
+.card img {
+    width: 100%;
+}
+.card p {
+    color: #545454;
+    text-align: center;
+    margin: 30px 0;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+}
