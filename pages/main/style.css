@@ -136,3 +136,34 @@ a {
     font-family: 'Arial';
     font-style: normal;
 }
+#makeAFriend-button {
+    height: 52px;
+    background-color: #F1CDB3;
+    padding: 15px 45px;
+    border-radius: 100px;
+    border: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    cursor: pointer;
+    transform: .5s;
+    font-family: 'Georgia';
+    font-style: normal;  
+}
+#makeAFriend-button:hover{
+    background-color: #FDDCC4;
+}
+
+.not-only-right-wrap{
+    max-width: 728px;
+   
+
+}
+#start-screen-puppy{
+    max-width: 728px;
+    width: 100%;
+    margin-top: 60px;
+
+}
