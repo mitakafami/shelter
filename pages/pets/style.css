@@ -98,3 +98,72 @@ nav {
     letter-spacing: 0.06em;
     margin-top: 30px;
 }
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    margin: 45px 0;
+}
+.pets-btn {
+    border: none;
+    cursor: pointer;
+    border: 2px solid #F1CDB3;
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+.pets-btn:hover {
+    background-color: #d4a582;
+}
+.icons {
+    margin: 74px 0 115px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons span {
+    font-weight: 400;
+    width: 23px;
+    height: 23px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 25px;
+    margin: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+.petsofInfo {
+    width: 100%;
+    min-height: 100%;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(80, 74, 74, 0.5);
+    display: none;
+}
+.petsofInfo.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.petsofInfocontainers {
+    width: 750px;
+    position: relative;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+}
+.petsofInfo-container {
+    background: #fff;
+    width: 630px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+}
