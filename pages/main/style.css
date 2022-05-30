@@ -500,15 +500,30 @@ margin: 0 auto;
     .big-wrap {
         height: 1320px;
     }
-    #start-screen-puppy {
-        margin-left: 150px;
-        width: 569px;
+    .card-wrap {
+        width: 300%;
+    }
+    .card {
+        margin-right: 7px;
+    }
+    .footer-wrap {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
     #makeAFriend-button {
        margin-left: 120px;
     }
     .cozy-house-wrap {
         margin-left: 30px;
+    }
+    .donation-wrap {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #donation-text {
+        max-width: 390px;
     }
     .navbar {
         margin-right: 30px;
@@ -521,23 +536,8 @@ margin: 0 auto;
     .about-shelter-left-wrap {
         margin-top: 80px;
     }
-    .card-wrap {
-        width: 300%;
-    }
-    .card {
-        margin-right: 7px;
-    }
-    .donation-wrap {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-    #donation-text {
-        max-width: 390px;
-    }
-    .footer-wrap {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+    #start-screen-puppy {
+        margin-left: 150px;
+        width: 569px;
     }
 }
