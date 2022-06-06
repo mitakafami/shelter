@@ -229,3 +229,56 @@ footer {
 .footer-images1 a {
     width: 230px;
 }
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 340px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding-bottom: 100px;
+}
+.rightbutton-1:hover{
+    background-color: #f1cdb3;
+    cursor: pointer;
+}
+.rightbutton-2:hover{
+    background-color: #f1cdb3;
+    cursor: pointer;
+}
+.leftbutton-1,
+.leftbutton-2{
+    border: 2px solid #CDCDCD;
+    color: #CDCDCD;
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    background-color: transparent;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    line-height: 115%;
+}
+.slider-pagination-btn{
+    width: 52px;
+    height: 52px;
+    background: #f1cdb3;
+    border-radius: 100px;
+    border: none;
+    color: #292929;
+    letter-spacing: 0.06em;
+    line-height: 115%;
+    font-size: 20px;
+}
+.rightbutton-1,
+.rightbutton-2 {
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    border: none;
+    color: #292929;
+    border: 2px solid #f1cdb3;;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    line-height: 115%;
+}
